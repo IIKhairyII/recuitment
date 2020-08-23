@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#Logo{
+    width: 60vh;
+    height: 30vh;
+    margin: 5vh;
+}
+#cover1{
+    display: flex;
+    justify-content: center;
+    width: 600vh;
+    height: 97vh;
+    background-color: darkblue;
+}
+#firstShow{
+   /* display: none;*/
+    position: absolute;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 500;
+    
+}
+#join_btn{
+    width: 25vh;
+    height: 10vh;
+    margin: 5vh;
+    font-size: 2.5vh;
+}
+#join_btn:hover{
+    cursor: pointer;
+}
+#application{
+    position: absolute;
+    top: 20%;
+    background-color: beige;
+    border: solid 0.1vh black;
+    padding: 2vh;
+    opacity: 0;
+    z-index: -1;
+}
+.form-control{
+    margin: 3vh;
+}
+.label{
+    font-size: 2.5vh;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.input{
+    border: none;
+    background: none;
+    border-bottom: 0.1vh solid blue;
+}
+#submit{
+    font-size: 2vh;
+    width: 11vh;
+    height: 6vh;
+    font-family: 'Balsamiq Sans', cursive;
+}
+#submit:hover{
+    cursor: pointer;
+}
+#icon{
+    font-size: 5vh;
+    position: relative;
+    right: 17vh;
+    opacity: 0;
+    color: white;
+    /*transform: rotate(-90deg);*/
+}
+@keyframes fly{
+    from{transform: translateX(-1vh);}
+    to{transform: translateX(110vh);}
+}
